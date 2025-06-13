@@ -3,11 +3,11 @@ git clone <me>
 ```bash
 cd exploreweb
 # install venv
-python -m venv exploreweb
+python -m venv exploreweb-venv
 # windows OS
-#./exploreweb/Script/Activate.ps1
+#./exploreweb-venv/Script/Activate.ps1
 # linux os
-source exploreweb/bin/activate
+source exploreweb-venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
