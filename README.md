@@ -1,13 +1,20 @@
+git clone <me>
+
+```bash
+cd exploreweb
+# install venv
+python -m venv exploreweb
+# windows OS
+#./exploreweb/Script/Activate.ps1
+# linux os
+source exploreweb/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 ### run
 
 ```bash
-# install venv
-python -m venv dataclass
-./dataclass/Script/Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-
 # use the url extraction
 python ./main.py --help
 ```
